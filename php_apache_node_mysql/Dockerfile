@@ -11,6 +11,7 @@ RUN apt-get install -y \
     php-xml \
     php-curl \
     php-zip \
+    php-mbstring \
     php-xdebug
 
 RUN apt-get install mariadb-server mariadb-client -y
