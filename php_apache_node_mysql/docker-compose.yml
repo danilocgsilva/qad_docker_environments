@@ -6,7 +6,6 @@ services:
       context: .
     volumes:
       - ./www:/var/www
-#     - ./data/mysql:/var/lib/mysql
     ports:
       - 1204:80
       - 3308:3306
